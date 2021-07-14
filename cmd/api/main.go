@@ -1,4 +1,4 @@
-package mainhh
+package main
 
 import (
 	"context"
