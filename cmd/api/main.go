@@ -51,16 +51,12 @@ func main() {
 	if err != nil {
 		logger.Fatal(err)
 	}
-	defer func(db *sql.DB) {
-		err := db.Close()
-		if err != nil {
-
-		}
-	}(db)
+	defer db.Close()
 
 	app := &application{
 		config: cfg,
 		logger: logger,
+		models: models.NewModels(db),
 	}
 
 	serve := &http.Server{
@@ -92,7 +88,5 @@ func openDB(cfg config) (*sql.DB, error) {
 	if err != nil {
 		return nil, err
 	}
-
 	return db, nil
-
 }
