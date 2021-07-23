@@ -79,7 +79,7 @@ func (m *DBModel) Get(id int) (*Movie, error) {
 }
 
 // All returns all movies
-func (m *DBModel) All(id int) ([]*Movie, error) {
+func (m *DBModel) All() ([]*Movie, error) {
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
 
@@ -132,7 +132,7 @@ func (m *DBModel) All(id int) ([]*Movie, error) {
 		genres := make(map[int]string)
 		for genreRows.Next() {
 			var mg MovieGenre
-			err := rows.Scan(
+			err := genreRows.Scan(
 				&mg.ID,
 				&mg.MovieId,
 				&mg.GenreId,
