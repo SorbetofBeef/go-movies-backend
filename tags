@@ -1,0 +1,147 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/me/github.com/SorbetofBeef/go-movies-backend/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+1	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <root id="1">$/;"	i
+10	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <role id="10" parent="1" name="pg_monitor">$/;"	i
+11	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <role id="11" parent="1" name="pg_read_all_settings">$/;"	i
+12	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <role id="12" parent="1" name="pg_stat_scan_tables">$/;"	i
+13	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <tablespace id="13" parent="1" name="pg_default">$/;"	i
+14	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <tablespace id="14" parent="1" name="pg_global">$/;"	i
+15	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <schema id="15" parent="2" name="public">$/;"	i
+16	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <schema id="16" parent="2" name="pg_catalog">$/;"	i
+17	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <schema id="17" parent="2" name="information_schema">$/;"	i
+18	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <schema id="18" parent="3" name="public">$/;"	i
+19	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <schema id="19" parent="3" name="pg_catalog">$/;"	i
+1wcWCFwUaYJaX1jb3Ui7vrIJO7s	.idea/workspace.xml	/^  <component name="ProjectId" id="1wcWCFwUaYJaX1jb3Ui7vrIJO7s" \/>$/;"	i
+2	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <database id="2" parent="1" name="postgres">$/;"	i
+20	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <schema id="20" parent="3" name="information_schema">$/;"	i
+21	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <extension id="21" parent="3" name="plpgsql">$/;"	i
+22	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <language id="22" parent="3" name="c">$/;"	i
+23	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <language id="23" parent="3" name="internal">$/;"	i
+24	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <language id="24" parent="3" name="plpgsql">$/;"	i
+25	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <language id="25" parent="3" name="sql">$/;"	i
+26	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <access-method id="26" parent="3" name="heap">$/;"	i
+27	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <access-method id="27" parent="3" name="btree">$/;"	i
+28	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <access-method id="28" parent="3" name="hash">$/;"	i
+29	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <access-method id="29" parent="3" name="gist">$/;"	i
+3	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <database id="3" parent="1" name="go_movies">$/;"	i
+30	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <access-method id="30" parent="3" name="gin">$/;"	i
+31	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <access-method id="31" parent="3" name="spgist">$/;"	i
+32	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <access-method id="32" parent="3" name="brin">$/;"	i
+33	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <sequence id="33" parent="18" name="genres_id_seq">$/;"	i
+34	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <sequence id="34" parent="18" name="movies_genres_id_seq">$/;"	i
+35	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <sequence id="35" parent="18" name="movies_id_seq">$/;"	i
+36	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <table id="36" parent="18" name="genres">$/;"	i
+37	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <table id="37" parent="18" name="movies">$/;"	i
+38	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <table id="38" parent="18" name="movies_genres">$/;"	i
+39	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="39" parent="36" name="id">$/;"	i
+4	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <role id="4" parent="1" name="pg_signal_backend">$/;"	i
+40	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="40" parent="36" name="genre_name">$/;"	i
+41	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="41" parent="36" name="created_at">$/;"	i
+42	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="42" parent="36" name="updated_at">$/;"	i
+43	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <index id="43" parent="36" name="genres_pkey">$/;"	i
+44	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <key id="44" parent="36" name="genres_pkey">$/;"	i
+45	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="45" parent="37" name="id">$/;"	i
+46	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="46" parent="37" name="title">$/;"	i
+47	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="47" parent="37" name="description">$/;"	i
+48	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="48" parent="37" name="year">$/;"	i
+49	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="49" parent="37" name="release_date">$/;"	i
+5	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <role id="5" parent="1" name="pg_read_server_files">$/;"	i
+50	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="50" parent="37" name="runtime">$/;"	i
+51	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="51" parent="37" name="rating">$/;"	i
+52	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="52" parent="37" name="mpaa_rating">$/;"	i
+53	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="53" parent="37" name="created_at">$/;"	i
+54	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="54" parent="37" name="updated_at">$/;"	i
+55	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <index id="55" parent="37" name="movies_pkey">$/;"	i
+56	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <key id="56" parent="37" name="movies_pkey">$/;"	i
+57	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="57" parent="38" name="id">$/;"	i
+58	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="58" parent="38" name="movie_id">$/;"	i
+59	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="59" parent="38" name="genre_id">$/;"	i
+6	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <role id="6" parent="1" name="postgres">$/;"	i
+60	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="60" parent="38" name="created_at">$/;"	i
+61	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <column id="61" parent="38" name="updated_at">$/;"	i
+62	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <index id="62" parent="38" name="movies_genres_pkey">$/;"	i
+63	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <key id="63" parent="38" name="movies_genres_pkey">$/;"	i
+64	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <foreign-key id="64" parent="38" name="fk_movie_genries_genre_id">$/;"	i
+65	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <foreign-key id="65" parent="38" name="fk_movie_genries_movie_id">$/;"	i
+7	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <role id="7" parent="1" name="pg_write_server_files">$/;"	i
+8	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <role id="8" parent="1" name="pg_execute_server_program">$/;"	i
+9	.idea/dataSources/0e94755b-4ebf-4d29-b278-2343e314cccc.xml	/^    <role id="9" parent="1" name="pg_read_all_stats">$/;"	i
+Add	.idea/workspace.xml	/^    <ConfirmationsSetting value="2" id="Add" \/>$/;"	i
+All	models/movies-db.go	/^func (m *DBModel) All(genre ...int) ([]*Movie, error) {$/;"	f	struct:models.DBModel	typeref:typename:([]*Movie, error)
+AppStatus	cmd/api/main.go	/^type AppStatus struct {$/;"	s	package:main
+CreatedAt	models/models.go	/^	CreatedAt   time.Time    `json:"-"`$/;"	m	struct:models.Movie	typeref:typename:time.Time
+CreatedAt	models/models.go	/^	CreatedAt time.Time `json:"-"`$/;"	m	struct:models.Genre	typeref:typename:time.Time
+CreatedAt	models/models.go	/^	CreatedAt time.Time `json:"-"`$/;"	m	struct:models.MovieGenre	typeref:typename:time.Time
+DB	models/models.go	/^	DB DBModel$/;"	m	struct:models.Models	typeref:typename:DBModel
+DB	models/movies-db.go	/^	DB *sql.DB$/;"	m	struct:models.DBModel	typeref:typename:*sql.DB
+DBModel	models/movies-db.go	/^type DBModel struct {$/;"	s	package:models
+Description	models/models.go	/^	Description string       `json:"description"`$/;"	m	struct:models.Movie	typeref:typename:string
+Environment	cmd/api/main.go	/^	Environment string `json:"environment"`$/;"	m	struct:main.AppStatus	typeref:typename:string
+Genre	models/models.go	/^	Genre     Genre     `json:"genre"`$/;"	m	struct:models.MovieGenre	typeref:typename:Genre
+Genre	models/models.go	/^type Genre struct {$/;"	s	package:models
+GenreId	models/models.go	/^	GenreId   int       `json:"-"`$/;"	m	struct:models.MovieGenre	typeref:typename:int
+GenreName	models/models.go	/^	GenreName string    `json:"genre_name"`$/;"	m	struct:models.Genre	typeref:typename:string
+GenresAll	models/movies-db.go	/^func (m *DBModel) GenresAll() ([]*Genre, error) {$/;"	f	struct:models.DBModel	typeref:typename:([]*Genre, error)
+Get	models/movies-db.go	/^func (m *DBModel) Get(id int) (*Movie, error) {$/;"	f	struct:models.DBModel	typeref:typename:(*Movie, error)
+ID	models/models.go	/^	ID          int          `json:"id"`$/;"	m	struct:models.Movie	typeref:typename:int
+ID	models/models.go	/^	ID        int       `json:"-"`$/;"	m	struct:models.MovieGenre	typeref:typename:int
+ID	models/models.go	/^	ID        int       `json:"id"`$/;"	m	struct:models.Genre	typeref:typename:int
+MPAARating	models/models.go	/^	MPAARating  string       `json:"mpaa_rating"`$/;"	m	struct:models.Movie	typeref:typename:string
+Models	models/models.go	/^type Models struct {$/;"	s	package:models
+Movie	models/models.go	/^type Movie struct {$/;"	s	package:models
+MovieGenre	models/models.go	/^	MovieGenre  map[int]string `json:"movie_genre"`$/;"	m	struct:models.Movie	typeref:typename:map[int]string
+MovieGenre	models/models.go	/^type MovieGenre struct {$/;"	s	package:models
+MovieId	models/models.go	/^	MovieId   int       `json:"-"`$/;"	m	struct:models.MovieGenre	typeref:typename:int
+NewModels	models/models.go	/^func NewModels(db *sql.DB) Models {$/;"	f	package:models	typeref:typename:Models
+Rating	models/models.go	/^	Rating      int          `json:"rating"`$/;"	m	struct:models.Movie	typeref:typename:int
+ReleaseDate	models/models.go	/^	ReleaseDate time.Time    `json:"release_date"`$/;"	m	struct:models.Movie	typeref:typename:time.Time
+Runtime	models/models.go	/^	Runtime     int          `json:"runtime"`$/;"	m	struct:models.Movie	typeref:typename:int
+Status	cmd/api/main.go	/^	Status      string `json:"status"`$/;"	m	struct:main.AppStatus	typeref:typename:string
+Title	models/models.go	/^	Title       string       `json:"title"`$/;"	m	struct:models.Movie	typeref:typename:string
+UpdatedAt	models/models.go	/^	UpdatedAt   time.Time    `json:"-"`$/;"	m	struct:models.Movie	typeref:typename:time.Time
+UpdatedAt	models/models.go	/^	UpdatedAt time.Time `json:"-"`$/;"	m	struct:models.Genre	typeref:typename:time.Time
+UpdatedAt	models/models.go	/^	UpdatedAt time.Time `json:"-"`$/;"	m	struct:models.MovieGenre	typeref:typename:time.Time
+Version	cmd/api/main.go	/^	Version     string `json:"version"`$/;"	m	struct:main.AppStatus	typeref:typename:string
+Year	models/models.go	/^	Year        int          `json:"year"`$/;"	m	struct:models.Movie	typeref:typename:int
+application	cmd/api/main.go	/^type application struct {$/;"	s	package:main
+config	cmd/api/main.go	/^	config config$/;"	m	struct:main.application	typeref:typename:config
+config	cmd/api/main.go	/^type config struct {$/;"	s	package:main
+d766dcb2-5d29-4162-928c-4663506a8ba5	.idea/workspace.xml	/^    <list default="true" id="d766dcb2-5d29-4162-928c-4663506a8ba5" name="Changes" comment="">$/;"	i
+db	cmd/api/main.go	/^	db   struct {$/;"	m	struct:main.config	typeref:typename:struct { dsn string; }
+deleteMovie	cmd/api/movie-handlers.go	/^func deleteMovie(w http.ResponseWriter, r *http.Request) {$/;"	f	package:main
+enableCORS	cmd/api/middleware.go	/^func (app *application) enableCORS(next http.Handler) http.Handler {$/;"	f	unknown:main.application	typeref:typename:http.Handler
+env	cmd/api/main.go	/^	env  string$/;"	m	struct:main.config	typeref:typename:string
+errorJSON	cmd/api/utilities.go	/^func (app *application) errorJSON(w http.ResponseWriter, err error) {$/;"	f	unknown:main.application
+getAllGenres	cmd/api/movie-handlers.go	/^func (app *application) getAllGenres(w http.ResponseWriter, r *http.Request) {$/;"	f	unknown:main.application
+getAllMovies	cmd/api/movie-handlers.go	/^func (app *application) getAllMovies(w http.ResponseWriter, r *http.Request) {$/;"	f	unknown:main.application
+getAllMoviesByGenre	cmd/api/movie-handlers.go	/^func (app *application) getAllMoviesByGenre(w http.ResponseWriter, r *http.Request) {$/;"	f	unknown:main.application
+getOneMovie	cmd/api/movie-handlers.go	/^func (app *application) getOneMovie(w http.ResponseWriter, r *http.Request) {$/;"	f	unknown:main.application
+insertMovie	cmd/api/movie-handlers.go	/^func insertMovie(w http.ResponseWriter, r *http.Request) {$/;"	f	package:main
+logger	cmd/api/main.go	/^	logger *log.Logger$/;"	m	struct:main.application	typeref:typename:*log.Logger
+main	cmd/api/main.go	/^func main() {$/;"	f	package:main
+main	cmd/api/main.go	/^package main$/;"	p
+main	cmd/api/middleware.go	/^package main$/;"	p
+main	cmd/api/movie-handlers.go	/^package main$/;"	p
+main	cmd/api/routes.go	/^package main$/;"	p
+main	cmd/api/status-handler.go	/^package main$/;"	p
+main	cmd/api/utilities.go	/^package main$/;"	p
+models	cmd/api/main.go	/^	models models.Models$/;"	m	struct:main.application	typeref:typename:models.Models
+models	models/models.go	/^package models$/;"	p
+models	models/movies-db.go	/^package models$/;"	p
+openDB	cmd/api/main.go	/^func openDB(cfg config) (*sql.DB, error) {$/;"	f	package:main	typeref:typename:(*sql.DB, error)
+port	cmd/api/main.go	/^	port int$/;"	m	struct:main.config	typeref:typename:int
+routes	cmd/api/routes.go	/^func (app *application) routes() http.Handler {$/;"	f	unknown:main.application	typeref:typename:http.Handler
+searchMovies	cmd/api/movie-handlers.go	/^func searchMovies(w http.ResponseWriter, r *http.Request) {$/;"	f	package:main
+statusHandler	cmd/api/status-handler.go	/^func (app *application) statusHandler(w http.ResponseWriter, r *http.Request) {$/;"	f	unknown:main.application
+updateMovie	cmd/api/movie-handlers.go	/^func updateMovie(w http.ResponseWriter, r *http.Request) {$/;"	f	package:main
+version	cmd/api/main.go	/^const version = "1.0.0"$/;"	c	package:main
+writeJSON	cmd/api/utilities.go	/^func (app *application) writeJSON(w http.ResponseWriter, status int, data interface{}, wrap stri/;"	f	unknown:main.application	typeref:typename:error
