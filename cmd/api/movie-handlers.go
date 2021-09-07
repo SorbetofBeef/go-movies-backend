@@ -37,7 +37,6 @@ func (app *application) getAllMovies(w http.ResponseWriter, r *http.Request) {
 		app.errorJSON(w, err)
 		return
 	}
-
 }
 
 func (app *application) getAllGenres(w http.ResponseWriter, r *http.Request) {
@@ -56,7 +55,7 @@ func (app *application) getAllGenres(w http.ResponseWriter, r *http.Request) {
 
 func (app *application) getAllMoviesByGenre(w http.ResponseWriter, r *http.Request) {
 	params := httprouter.ParamsFromContext(r.Context())
-	
+
 	genreID, err := strconv.Atoi(params.ByName("genre_id"))
 	if err != nil {
 		app.errorJSON(w, err)
@@ -76,18 +75,24 @@ func (app *application) getAllMoviesByGenre(w http.ResponseWriter, r *http.Reque
 	}
 }
 
+func (app *application) editMovie(w http.ResponseWriter, r *http.Request) {
+	type jsonResp struct {
+		OK bool `json:"ok"`
+	}
+
+	ok := jsonResp{
+		OK: true,
+	}
+
+	err := app.writeJSON(w, http.StatusOK, ok, "ok")
+	if err != nil {
+		app.errorJSON(w, err)
+		return
+	}
+}
+
 func deleteMovie(w http.ResponseWriter, r *http.Request) {
-	
-}
-
-func insertMovie(w http.ResponseWriter, r *http.Request) {
-
-}
-
-func updateMovie(w http.ResponseWriter, r *http.Request) {
-
 }
 
 func searchMovies(w http.ResponseWriter, r *http.Request) {
-
 }

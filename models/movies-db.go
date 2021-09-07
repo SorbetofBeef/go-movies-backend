@@ -171,7 +171,6 @@ func (m *DBModel) GenresAll() ([]*Genre, error) {
 			genre_name
 	`
 
-
 	rows, err := m.DB.QueryContext(ctx, query)
 	if err != nil {
 		return nil, err
@@ -194,9 +193,3 @@ func (m *DBModel) GenresAll() ([]*Genre, error) {
 	}
 	return genres, nil
 }
-
-
-
-
-
-

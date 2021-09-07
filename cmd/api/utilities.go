@@ -41,5 +41,4 @@ func (app *application) errorJSON(w http.ResponseWriter, err error) {
 	if err != nil {
 		log.Println(err)
 	}
-
 }
