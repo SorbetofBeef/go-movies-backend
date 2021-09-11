@@ -15,7 +15,8 @@ import (
 var validUser = models.User{
 	ID:       10,
 	Email:    "me@here.com",
-	Password: "$2a$12$93KF3JVuh2oQlzJQdid2IOXP67F3xhI6fwD9yQ9bxM.5TtuCP4CvS",
+	Password: "$2a$12$k4z7htWADpuASTDKIZLo/.zppKPsPoi/AseEGaUI80lCweB1xHWUG",
+	// Password: "$2a$12$93KF3JVuh2oQlzJQdid2IOXP67F3xhI6fwD9yQ9bxM.5TtuCP4CvS",
 }
 
 // Credentials is the type for user inputted credentials
