@@ -103,32 +103,88 @@ func (app *application) editMovie(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	var movie models.Movie
+
+	if payload.ID != "0" {
+		id, err := strconv.Atoi(payload.ID)
+		if err != nil {
+			app.errorJSON(w, err)
+			return
+		}
+
+		m, err := app.models.DB.Get(id)
+		if err != nil {
+			app.errorJSON(w, err)
+			return
+		}
+
+		movie := *m
+		movie.UpdatedAt = time.Now()
+	}
+
 	movie.ID, err = strconv.Atoi(payload.ID)
 	if err != nil {
 		app.errorJSON(w, err)
 		return
 	}
+
 	movie.Runtime, err = strconv.Atoi(payload.Runtime)
 	if err != nil {
 		app.errorJSON(w, err)
 		return
 	}
+
 	movie.Rating, err = strconv.Atoi(payload.Rating)
 	if err != nil {
 		app.errorJSON(w, err)
 		return
 	}
+
 	movie.ReleaseDate, err = time.Parse("2006-01-02", payload.ReleaseDate)
 	if err != nil {
 		app.errorJSON(w, err)
 		return
 	}
+
 	movie.Title = payload.Title
 	movie.Description = payload.Description
 	movie.MPAARating = payload.MPAARating
 	movie.Year = movie.ReleaseDate.Year()
-	movie.CreatedAt = time.Now()
-	movie.UpdatedAt = time.Now()
+
+	if movie.ID == 0 {
+		movie.CreatedAt = time.Now()
+		err = app.models.DB.InsertMovie(movie)
+		if err != nil {
+			app.errorJSON(w, err)
+			return
+		}
+	} else {
+		err = app.models.DB.UpdateMovie(movie)
+		if err != nil {
+			app.errorJSON(w, err)
+			return
+		}
+	}
+
+	alert := jsonResp{
+		OK:      true,
+		Message: "success",
+	}
+	err = app.writeJSON(w, http.StatusOK, alert, "alert")
+}
+
+func (app *application) deleteMovie(w http.ResponseWriter, r *http.Request) {
+	params := httprouter.ParamsFromContext(r.Context())
+
+	id, err := strconv.Atoi(params.ByName("id"))
+	if err != nil {
+		app.errorJSON(w, err)
+		return
+	}
+	err = app.models.DB.DeleteMovie(id)
+	if err != nil {
+		app.errorJSON(w, err)
+		return
+	}
 
 	ok := jsonResp{
 		OK: true,
@@ -139,17 +195,6 @@ func (app *application) editMovie(w http.ResponseWriter, r *http.Request) {
 		app.errorJSON(w, err)
 		return
 	}
-
-	if movie.ID == 0 {
-		err = app.models.DB.InsertMovie(movie)
-		if err != nil {
-			app.errorJSON(w, err)
-			return
-		}
-	}
-}
-
-func deleteMovie(w http.ResponseWriter, r *http.Request) {
 }
 
 func searchMovies(w http.ResponseWriter, r *http.Request) {
