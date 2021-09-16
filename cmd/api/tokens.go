@@ -9,6 +9,7 @@ import (
 
 	"github.com/SorbetofBeef/go-movies-backend/models"
 	"github.com/pascaldekloe/jwt"
+
 	"golang.org/x/crypto/bcrypt"
 )
 

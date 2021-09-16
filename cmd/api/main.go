@@ -10,9 +10,8 @@ import (
 	"os"
 	"time"
 
-	_ "github.com/lib/pq"
-
 	"github.com/SorbetofBeef/go-movies-backend/models"
+	_ "github.com/lib/pq"
 )
 
 const version = "1.0.0"
